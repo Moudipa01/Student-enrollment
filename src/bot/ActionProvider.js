@@ -8,8 +8,6 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
       messages: [...prev.messages, botMessage],
     }));
   };
-
-
   const nameHandler = () => {
 
     const botMessage = createChatBotMessage(
@@ -20,8 +18,6 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
       ...prev,
       messages: [...prev.messages, botMessage]
     }));
-
-
   };
 
   const ageHandler = () => {
